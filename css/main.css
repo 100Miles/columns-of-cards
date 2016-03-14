@@ -8,10 +8,14 @@ html {
   font-family: "Open Sans", sans-serif;
   font-size: 0.875rem;
 }
+
 body {
-  margin: 0 22px 0 22px;
+  margin: 0;
+  padding: 0 20px 0 20px;
+  text-align: left;
 }
-.btn-small {
+
+.btn {
   text-decoration: none;
   border: 3px solid;
   border-radius: 8px;
@@ -25,11 +29,16 @@ body {
   border-color: #333;
   display: inline-block;
   font-size: .875rem;
+  text-align: left;
 }
 
-.btn-small:hover {
+.btn:hover {
   background-color: #000;
   border-color: #000;
+}
+
+.btn-small {
+  display: none;
 }
 
 h2 {
@@ -38,28 +47,28 @@ h2 {
 }
 
 .card-1 {
-  float:left;
+  float: left;
   max-width: 25%;
   background-color: #e2e2e2;
   border-left: 1px solid #333;
 }
 
 .card-2 {
-  float:left;
+  float: left;
   max-width: 25%;
   background-color: #ccc;
   border-left: 1px solid #333;
 }
 
 .card-3 {
-  float:left;
+  float: left;
   max-width: 25%;
   background-color: #aaa;
   border-left: 1px solid #333;
 }
 
 .card-4 {
-  float:left;
+  float: left;
   max-width: 25%;
   background-color: #999;
   border-right: 1px solid #333;
@@ -67,12 +76,23 @@ h2 {
 
 .card {
   padding: 0 12px 70px 12px;
+  text-align: center;
+}
+
+.content {
+  text-align: left;
 }
 
 img {
   width: 100px;
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+  margin: auto;
 }
 
 figure {
   text-align: center;
+  display: inline-block;
+  vertical-align: middle;
 }
